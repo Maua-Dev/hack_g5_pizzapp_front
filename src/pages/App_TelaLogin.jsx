@@ -1,12 +1,12 @@
-import './App.css';
-import { MainTitle, InputUser, LogUserBut } from './styled-components/Text';
-import { Container, InputContainer, LogContainer } from './styled-components/container';
+import '../pages/App_TelaLogin.css';
+import { MainTitle, InputUser, LogUserBut } from '../styled-components/Text';
+import { Container, InputContainer, LogContainer } from '../styled-components/container';
 
-import raminho from './images/raminho.png'
-import { ImgTop, ImgBot } from './styled-components/image';
+import raminho from '../images/raminho.png'
+import { ImgTop, ImgBot } from '../styled-components/image';
 
 function App() {
-  return (
+  return (  
     <>
       <ImgTop src={raminho} alt={raminho}/>   
       <MainTitle>PIZZATE</MainTitle>
