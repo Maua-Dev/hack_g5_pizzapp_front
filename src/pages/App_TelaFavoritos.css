@@ -1,0 +1,231 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+h1{
+  font-family:"Sumana";
+  font-size: 24px;
+  font-weight: 700;
+margin-top:25 px;
+/*margin-right: 230px;*/
+}
+.logo{
+  max-width: 200px;
+  height:auto;
+}
+.pessoa{
+  max-width: 40px;
+  height:auto;
+  margin-right: 5px;
+  
+}
+.locate{
+  max-width: 40px;
+  height:auto;
+  margin-right: 5px;
+  
+}
+.topo {
+  width:1923px;
+   height:236px; 
+    background-color:rgb(124, 148, 73);
+    left: -3;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.botoes {
+  width:1923px;
+   height:136px; 
+    background-color:rgb(124, 148, 73);
+    left: -3;
+    display:flex;
+    justify-content: center;
+    padding: 10px 50px;
+
+    
+}
+
+rect{
+  width:100px;
+  height:200px;
+  border:6px solid #000;
+
+}
+
+.button {
+  font-family:"Sumana";
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #90A74C;
+  border: none;
+  border-radius: 50%;
+  color: black;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgb(50, 69, 10);
+}
+
+.resto {
+  width:1923px;
+  height:3360px;
+    background-color:rgb(249, 238, 200);
+    left: -3;
+    margin:none;
+    align-content: center;
+    justify-content: center
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+      flex-wrap: wrap;
+}
+
+.menu-column {
+  flex: 1;
+  margin: 0px;
+  padding: 100px;
+  background-color: #f9eec8;
+  border: 0px solid #ccc;
+}
+.retangulo {
+  width: 10px;
+  height: 1500px;
+  background-color: #D3B786;}
+  .retangulo1 {
+    width: 10px;
+    height: 1000px;
+    background-color: #D3B786;}
+    .retangulo2 {
+      width: 10px;
+      height: 700px;
+      background-color: #D3B786;}
+    .retangulo3 {
+      width: 10px;
+      height: 400px;
+      background-color: #D3B786;}
+.menu-column h2 {
+  text-align: left;
+}
+
+.menu-column ul {
+  list-style: none;
+  padding: 0;
+}
+h3{
+  font-family:"Sumana";
+  font-size: 24px;
+  font-style: bold;
+padding: 0px;
+margin:0px;
+}
+p{padding: 0px;
+  margin-top:0px;
+  font-size: 15px;
+  font-family:"Sumana";
+  font-weight: 17px;
+  line-height: 1em;
+  margin-bottom:0px;
+}
+
+span{padding: 0px;
+  margin-top:0px;
+  font-size: 20px;
+  font-family:"Sumana-bold";
+  font-style: bold;
+  font-weight: 17px;
+  margin-bottom: 100px;
+}
+/*b{
+  display:flex;
+}*/
+.menu-column ul li {
+  margin-bottom: 10px;
+
+  
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@font-face {
+  font-family: Sumana;
+  src: url(C:\Users\Dell\Desktop\react-practice\hello-world\src\Sumana-Regular.ttf);
+}
+@font-face {
+  font-family: Sumana-bold;
+  src: url(C:\Users\Dell\Desktop\react-practice\hello-world\src\Sumana-Bold.ttf);
+}
+ .menu-item img {
+  float: left;
+  margin-top: 10px;
+  
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.scroll-to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.scroll-to-top-button.visible {
+  display: block;
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+  font-size: 84px;
+  cursor: pointer;
+}
+
+.star-button:hover {
+  color: yellow; /* Cor da estrela quando o mouse está sobre ela */
+}
+
+.star-button-clicked {
+  color: rgb(3, 181, 44); /* Cor da estrela quando clicada */
+}
