@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     display: grid;
-    margin-right: 300px;
+    justify-content: center;
+
 `
 
 const InputContainer = styled.div `

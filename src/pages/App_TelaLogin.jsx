@@ -1,11 +1,11 @@
 import '../pages/App_TelaLogin.css';
-import { MainTitle, InputUser, LogUserBut } from '../styled-components/Text';
+import { MainTitle, InputUser, LogUserBut, LogUserButAct } from '../styled-components/Text';
 import { Container, InputContainer, LogContainer } from '../styled-components/container';
 
 import raminho from '../images/raminho.png'
 import { ImgTop, ImgBot } from '../styled-components/image';
 
-function App() {
+function TelaLogin() {
   return (  
     <>
       <ImgTop src={raminho} alt={raminho}/>   
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default TelaLogin;
