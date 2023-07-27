@@ -1,5 +1,5 @@
 import '../pages/App_TelaLogin.css';
-import { MainTitle, InputUser, LogUserBut } from '../styled-components/Text';
+import { MainTitle, InputUser, LogUserBut, LogUserButAct } from '../styled-components/Text';
 import { Container, InputContainer, LogContainer } from '../styled-components/container';
 
 import raminho from '../images/raminho.png'
