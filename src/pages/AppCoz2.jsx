@@ -1,9 +1,10 @@
-import '../AppCoz2.css';
-import { MainTitleCoz, MainTitleCoz } from '../styled-components/TextCoz';
-import { ColunaContainer, Container } from '../styled-components/ContainerCoz';
+
+import '../pages/AppCoz2.css';
+import { MainTitleCoz } from '../styled-components/TextCoz';
+import { ColunaContainer, Container } from '../styled-components/ContainerCoz2';
 import { PedidosTitle } from '../styled-components/PedidosTitle'
 import { Lista } from '../styled-components/ListaDosPratos';
-import { PedidosCoz } from '../styled-components/ComidasCoz';
+import { PedidosCoz } from '../styled-components/ComidasCoz2';
 import { SubTitle } from '../styled-components/SubTitle';
 
 

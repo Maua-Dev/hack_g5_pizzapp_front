@@ -3,7 +3,7 @@ import { ColunaContainer, Container } from '../styled-components/ContainerGar';
 import { MainTitle } from '../styled-components/TextGar';
 import { BotaoCliente } from '../styled-components/ButtonClientaoGar'
 import { BotaoComidas } from '../styled-components/ButtonComidasGar';
-import { PratosTitle } from '../styled-components/TitulosDosPratos1';
+import { PratosTitle } from '../styled-components/TitulosDosPratos';
 
 
 

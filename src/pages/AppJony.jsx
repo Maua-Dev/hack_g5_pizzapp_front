@@ -1,9 +1,9 @@
-import '../pages/';
-import { ColunaContainer, Container } from './styled-components/Container';
-import { Image } from './styled-components/Image';
-import { MainTitle } from './styled-components/Text';
-import Pessoa from './assets/images/pessoa.png'
-import { BotaoCliente } from '../styled-components/ButtonClientao'
+import '../pages/AppJony.css';
+import { ColunaContainer, Container } from '../styled-components/container';
+import { Image } from '../styled-components/ImageJony';
+import { MainTitle } from '../styled-components/TextJony';
+import Pessoa from '../images/pessoa.png';
+import { BotaoCliente } from '../styled-components/ButtonClientao';
 import { BotaoComidas } from '../styled-components/ButtonComidas';
 import { PratosTitle } from '../styled-components/TitulosDosPratos';
 

@@ -17,4 +17,14 @@ const LogContainer = styled.div `
 
 `
 
-export {Container, InputContainer, LogContainer}
+const ColunaContainer = styled.div`
+    flex-direction: column;
+    display: flex;
+    
+    margin-left: 60px;
+    margin-right: 60px;
+    
+     
+    
+`;
+export {Container, InputContainer, LogContainer,ColunaContainer}

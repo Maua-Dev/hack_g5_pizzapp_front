@@ -75,7 +75,7 @@ function App() {
          <h1> <img class ="locate"src={locate}alt="logo da pizza" title="logo da pizza" />PRAÇA MAUÁ, 1 - SÃO<br /> CAETANO DO SUL </h1>
 
          <img class ="logo"src={logopizza}alt="logo da pizza" title="logo da pizza" />
-         <button class ="button"><img class ="pessoa"src={pessoa}alt="pessoa" title="pessoa" />LOGIN</button>
+         <a href="/login" >  <button class ="button"><img class ="pessoa"src={pessoa}alt="pessoa" title="pessoa" />LOGIN</button></a>
           </div>
           </header>
            
@@ -84,6 +84,7 @@ function App() {
            <button onClick={handleClick2}  class ="button">PIZZAS  </button>
            <button onClick={handleClick3} class ="button">DOCES  </button>
            <button onClick={handleClick4} class ="button">BEBIDAS</button>
+           <a href="/favoritos" >   <button  class ="button">FAVORITOS</button></a> 
          </div>
 
           <div className="resto"> 
