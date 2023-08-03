@@ -32,6 +32,8 @@ const SignUpBut = styled.button`
     font-family: Sumana Regular;
     font-weight: 650;
     box-shadow: 2px 3px #00000052;
+    font-size: 30px;
+    line-height: 1;
 `
 
 export { MainTitle, InputData, SignUpBut }
