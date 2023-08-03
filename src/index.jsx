@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './pages/App_TelaLogin';  
+import Tela_Codigo from './pages/tela_codigo';  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Tela_Codigo />
   </React.StrictMode>
 );
 

@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 
 const ImgTop = styled.img`
-    width: 150px;
-    height: 150px;
+    width: 480px;
+    height: 400px;
 `
 
 const ImgBot = styled.img`
-    width: 150px;
-    height: 150px;
-    transform: scaleX(-1);
-    margin-left: 450px;
+    width: 480px;
+    height: 400px;
+    transform: rotate(180deg);
+    float: right;
 `
 
-export{ImgTop, ImgBot}
+export { ImgTop, ImgBot }
