@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Yeseva One";
+    src: url("../fonts/YesevaOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+  
+  @font-face {
+    font-family: "Sumana Regular";
+    src: url("../fonts/Sumana-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+body {
+  background-color: #F9EEC9; 
+  border: solid;
+  border-color: #90A74CC9;
+  border-width: 10px;
+  height: 935px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.InputIcon {
+  background: url("../images/image\ 67\ \(1\).png") no-repeat right;
+  background-size: 20px;
+}
