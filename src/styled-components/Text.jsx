@@ -3,31 +3,36 @@ import styled from 'styled-components'
 const MainTitle = styled.h1`
     font-weight: normal;
     font-family: Yeseva One;
-    font-size: 70px;
-    display: inline-block;
+    font-size: 120px;
+    margin-top: 130px;
+    margin-left: 210px;
 `
 
-const InputUser = styled.input`
-    text-align: left;
-    font-weight: lighter;
-    height: 50%;
-    width: 300px;
-    font-family: Sumana Regular;
-    background-color:#90A74CC9;
-    margin-bottom: 10px;
+const CodeInput = styled.input`
+    background-color: #90A74CC9;
+    width: 600px;
+    height: 55px;
     border-radius: 10px;
-    border: none;
-    box-shadow: 2px 3px #6d6d6db7;
+    font-family: Sumana Regular;
+    font-size: 30px;
+    font-weight: 650;
+    box-shadow: 2px 3px #00000052;
+    margin-bottom: 30px;
 `
 
-const LogUserBut = styled.button`
-    background-color:#D3B786;
-    height: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 10px; 
-    border: none;
-    box-shadow: 1px 2px #6d6d6db7;
+const CodeButton = styled.button`
+    display: inline;
+    background-color:#D3B786; 
+    width: 400px;
+    height: 65px;
+    border-radius: 10px;
+    font-family: Sumana Regular;
+    font-weight: 650;
+    box-shadow: 2px 3px #00000052;
+    margin-left: 100px;
+    font-size: 30px;
+    line-height: 1;
+
 `
 
-export { MainTitle, InputUser, LogUserBut }
+export { MainTitle, CodeInput, CodeButton }
