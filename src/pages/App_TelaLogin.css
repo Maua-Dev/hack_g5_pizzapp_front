@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Yeseva One";
+  src: url("../Fonts/YesevaOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Sumana Regular";
+  src: url("../Fonts/Sumana-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  background-color: #F9EEC9;
+  display: -ms-inline-grid;
+  margin-left: 460px;
+  border: solid;
+  border-color: #90A74CC9;
+  width: 1000px;
+  height: 650px;
+}
