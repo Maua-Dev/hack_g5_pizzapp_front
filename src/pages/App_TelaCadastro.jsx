@@ -1,7 +1,7 @@
 import './App_TelaCadastro.css';
-import { MainTitle, InputData, SignUpBut } from '../styled components/text';
-import { InputContainerTC, HeaderContainer, FooterContainer } from '../styled components/container';
-import { ImgTop, ImgBot } from '../styled components/image';
+import { MainTitle, InputData, SignUpBut } from '../styled components/textSign';
+import { InputContainerTC, HeaderContainer, FooterContainer } from '../styled components/containerSign';
+import { ImgTop, ImgBot } from '../styled components/imageSign';
 
 import raminho from '../images/raminho (1).png'
 

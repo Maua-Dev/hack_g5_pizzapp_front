@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Yeseva One";
-    src: url("../fonts/YesevaOne-Regular.ttf") format("truetype");
+    src: url("../Fonts/YesevaOne-Regular.ttf") format("truetype");
     font-weight: normal;
 }
   
   @font-face {
     font-family: "Sumana Regular";
-    src: url("../fonts/Sumana-Regular.ttf") format("truetype");
+    src: url("../Fonts/Sumana-Regular.ttf") format("truetype");
     font-weight: normal;
 }
 
