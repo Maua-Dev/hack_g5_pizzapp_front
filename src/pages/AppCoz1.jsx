@@ -13,11 +13,11 @@ function AppBar() {
   return (
     <>     
       <MainTitle>{'PIZZATE'}</MainTitle>
-      <SubTitle>(Bar)</SubTitle>
+      <a href='/tela_codigo'>    <SubTitle>(Bar)</SubTitle></a > 
       <Container>
         <ColunaContainer>
         <PedidosCoz>
-            <PedidosTitle>#243K</PedidosTitle>
+         <PedidosTitle>#243K</PedidosTitle>
             <Lista>1 Cerveja Heineken</Lista>
             <Lista>1 Suco de morango com leite</Lista>
             <Lista>1 Suco de laranja</Lista>

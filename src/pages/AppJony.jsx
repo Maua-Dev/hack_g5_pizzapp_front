@@ -18,7 +18,7 @@ function AppGar1() {
       
       
         
-        <BotaoCliente><Image src={Pessoa} alt="Pessoa" />Cliente</BotaoCliente>
+      <a href='/appgar2'>     <BotaoCliente><Image src={Pessoa} alt="Pessoa" />Cliente</BotaoCliente> </a>
         <Container>
           <ColunaContainer>
             <PratosTitle>Entradas</PratosTitle>

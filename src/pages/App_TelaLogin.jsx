@@ -19,7 +19,7 @@ function TelaLogin() {
         </InputContainer>
 
         <LogContainer>
-          <LogUserBut>Login</LogUserBut>
+        <a href="/Coz" >     <LogUserBut>Login</LogUserBut>      </a> 
           <LogUserBut>Cadastre-se</LogUserBut>
         </LogContainer>
 

@@ -16,7 +16,7 @@ function AppGar2() {
       
       
         
-        <BotaoCliente>#351A</BotaoCliente>
+      <a href='/appbar'>      <BotaoCliente>#351A</BotaoCliente></a > 
         <Container>
           <ColunaContainer>
             <PratosTitle>Entradas</PratosTitle>

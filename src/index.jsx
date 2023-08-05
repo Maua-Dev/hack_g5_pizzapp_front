@@ -7,13 +7,18 @@ import AppBar from './pages/AppCoz1';
 import AppGar2 from './pages/AppGar2';
 import AppGar1 from './pages/AppJony';
 import App_TelaFav from "./pages/App_TelaFavoritos";
-
-
-
+import TelaLogin from './pages/App_TelaLogin';
+import TelaFav from './pages/App_TelaFavoritos';
+import TelaMenu from './pages/App_TelaMenu';
+import TelaCodigo from './pages/tela_codigo';
+import { BrowserRouter as Router} from 'react-router-dom';
+import AppRouter from './AppRouter';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppCoz />
+    <Router>
+  <AppRouter/>
+    </Router>
   </React.StrictMode>
 );
 

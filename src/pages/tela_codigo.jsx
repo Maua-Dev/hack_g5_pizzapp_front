@@ -14,8 +14,8 @@ function Tela_Codigo() {
     </HeaderContainer>
 
       <DataDiv>
-        <CodeInput type='text' placeholder='Código'></CodeInput>
-        <CodeButton>Entrar</CodeButton>
+      <CodeInput type='text' placeholder='Código'></CodeInput>    
+      <a href='/'>    <CodeButton>Entrar</CodeButton></a>  
       </DataDiv>
 
       <ImgBot src={raminho} alt={raminho}/>

@@ -49,6 +49,7 @@ import ScrollToTopButton from '../styled-components/ScrollToTopButton';
 import Headline from '../styled-components/Headline';
 import StarButton from '../styled-components/StarButton'
 import {useRef} from 'react';
+import { useNavigate } from "react-router-dom";
 function App() {
   const ref = useRef(null);
   const ref2 = useRef(null);
@@ -66,6 +67,11 @@ function App() {
   const handleClick4= () =>{
     ref4.current?.scrollIntoView({behavior:'smooth'});
   };
+  const navigate= useNavigate();
+ function ir_login(){
+  navigate('/login');
+ }
+
   return (
     
     <div className="App">

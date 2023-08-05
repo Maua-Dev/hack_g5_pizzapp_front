@@ -14,7 +14,7 @@ function AppCoz() {
   return (
     <>     
       <MainTitleCoz>{'PIZZATE'}</MainTitleCoz>
-      <SubTitle>(Cozinha)</SubTitle>
+     <a href='/appbar'> <SubTitle>(Cozinha)</SubTitle></a>
       <Container>
         <ColunaContainer>
         <PedidosCoz>

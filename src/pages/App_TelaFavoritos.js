@@ -42,6 +42,7 @@ function App_TelaFav() {
            <button onClick={handleClick2}  class ="button">PIZZAS  </button>
            <button onClick={handleClick3} class ="button">DOCES  </button>
            <button onClick={handleClick4} class ="button">BEBIDAS</button>
+           <a href="/" >   <button  class ="button">MENU</button></a> 
          </div>
 
           <div className="resto"> 
