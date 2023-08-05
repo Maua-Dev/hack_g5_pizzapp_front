@@ -17,7 +17,7 @@ const CodeInput = styled.input`
     font-size: 30px;
     font-weight: 650;
     box-shadow: 2px 3px #00000052;
-    margin-bottom: 30px;``
+    margin-bottom: 30px;
 `
 
 const CodeButton = styled.button`

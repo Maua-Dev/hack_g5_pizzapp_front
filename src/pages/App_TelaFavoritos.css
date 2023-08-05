@@ -67,7 +67,7 @@ margin-top:25 px;
     left: -3;
     display:flex;
     justify-content: center;
-    padding: 10px 50px;
+    padding: 0px;
 
     
 }
@@ -184,11 +184,11 @@ span{padding: 0px;
 }
 @font-face {
   font-family: Sumana;
-  src: url(C:\Users\Dell\Desktop\react-practice\hello-world\src\Sumana-Regular.ttf);
+  src: url(../Fonts/Sumana-Regular.ttf);
 }
 @font-face {
   font-family: Sumana-bold;
-  src: url(C:\Users\Dell\Desktop\react-practice\hello-world\src\Sumana-Bold.ttf);
+  src: url("");
 }
  .menu-item img {
   float: left;

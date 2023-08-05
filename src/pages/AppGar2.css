@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Sumana" ;
-  src: url("fonts/Sumana-Bold.ttf") format("truetype");
+  src: url("../Fonts/Sumana-Bold.ttf") format("truetype");
   font-weight: bold;
   font-display: swap;
 }
 @font-face {
   font-family: "Sumana" ;
-  src: url("fonts/Sumana-Regular.ttf") format("truetype");
+  src: url("../Fonts/Sumana-Regular.ttf") format("truetype");
   font-weight: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "YesevaOne" ;
-  src: url("fonts/YesevaOne-Regular.ttf") format("truetype");
+  src: url("../Fonts/YesevaOne-Regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
   
@@ -22,7 +22,5 @@
 body {
   background-color: #F9EEC9;
 }
-
-
 
 

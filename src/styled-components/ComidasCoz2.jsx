@@ -16,6 +16,7 @@ const PedidosCoz = styled.button`
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
+    cursor: pointer;
       
     
       
